@@ -5,7 +5,15 @@
 @source '../**/*.blade.php';
 @source '../**/*.js';
 
+@font-face {
+    font-family: 'Old London';
+    src: url('../fonts/OldLondon.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @theme {
     --font-sans: 'inter', 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-old-london: 'Old London', serif;
 }
