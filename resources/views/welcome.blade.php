@@ -103,8 +103,8 @@
                 </h2>
                 <div class="grid md:grid-cols-3 gap-8">
                     {{-- Economize Tempo --}}
-                    <div
-                        class="bg-white p-8 rounded-xl shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group animate-[fade-in_0.8s_ease-out_0.9s_both]">
+                    <x-card
+                        class="hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group animate-[fade-in_0.8s_ease-out_0.9s_both]">
                         <div
                             class="w-12 h-12 bg-neutral-900 text-white rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                             <x-icon name="clock" class="w-6 h-6" />
@@ -115,11 +115,11 @@
                         <p class="text-neutral-600">
                             Chega de passar o fim de semana corrigindo pilhas de provas.
                         </p>
-                    </div>
+                    </x-card>
 
                     {{-- Software Livre --}}
-                    <div
-                        class="bg-white p-8 rounded-xl shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group animate-[fade-in_0.8s_ease-out_1s_both]">
+                    <x-card
+                        class="hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group animate-[fade-in_0.8s_ease-out_1s_both]">
                         <div
                             class="w-12 h-12 bg-neutral-900 text-white rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                             <x-icon name="check-badge" class="w-6 h-6" />
@@ -131,11 +131,11 @@
                             Código aberto sob licença GPL 3.0. Use, modifique e distribua livremente, sem custos ou
                             restrições.
                         </p>
-                    </div>
+                    </x-card>
 
                     {{-- Análise de Dados --}}
-                    <div
-                        class="bg-white p-8 rounded-xl shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group animate-[fade-in_0.8s_ease-out_1.1s_both]">
+                    <x-card
+                        class="hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group animate-[fade-in_0.8s_ease-out_1.1s_both]">
                         <div
                             class="w-12 h-12 bg-neutral-900 text-white rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                             <x-icon name="chart-bar" class="w-6 h-6" />
@@ -146,7 +146,7 @@
                         <p class="text-neutral-600">
                             Veja estatísticas de acerto por questão e entenda onde sua turma tem mais dificuldade.
                         </p>
-                    </div>
+                    </x-card>
                 </div>
             </div>
         </section>
