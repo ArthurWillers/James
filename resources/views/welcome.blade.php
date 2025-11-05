@@ -33,7 +33,7 @@
                 </p>
                 <div class="animate-[fade-in_0.8s_ease-out_0.3s_both]">
                     <x-button href="{{ route('register') }}"
-                        class="text-lg px-8 py-4 hover:scale-105 transition-all duration-300">
+                        class="text-xl px-8 py-4 hover:scale-105 transition-all duration-300">
                         Começar agora
                     </x-button>
                 </div>
