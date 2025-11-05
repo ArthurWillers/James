@@ -119,35 +119,7 @@ A aplicação estará disponível em `http://localhost:8000`.
 
 ## Laravel Boost
 
-Este projeto utiliza **Laravel Boost**, uma ferramenta MCP (Model Context Protocol) que oferece recursos poderosos para desenvolvimento em Laravel:
+Para instruções completas de instalação e configuração do Laravel Boost, consulte a documentação oficial:
 
-### Funcionalidades Principais
+**[Laravel Boost - Installation Guide](https://laravel.com/ai/boost#installation-guide)**
 
-- **Database Schema Access**: Visualize a estrutura completa do banco de dados, incluindo tabelas, colunas, tipos de dados, índices e chaves estrangeiras
-- **Artisan Commands**: Execute e liste todos os comandos Artisan disponíveis na aplicação
-- **Error Logs & Debugging**: Acesse logs de erro e execute código PHP via Tinker para debugging
-- **Semantic Documentation Search**: Busque documentação específica da versão de cada pacote instalado
-- **Browser Logs**: Monitore logs do navegador e erros JavaScript/TypeScript
-
-### Usando Laravel Boost
-
-Laravel Boost integra-se com sua IDE e oferece autocompletar inteligente e busca de documentação contextualizada. Use as ferramentas disponíveis no Boost para:
-
-- Explorar o schema do banco de dados
-- Listar e entender rotas disponíveis
-- Executar consultas de leitura segura
-- Debugar problemas com o contexto da aplicação
-- Buscar documentação dos pacotes instalados
-
-### Pacotes Principais
-
-A aplicação utiliza os seguintes pacotes com suporte especial do Boost:
-
-- **laravel/framework** (v12): Framework PHP moderno
-- **laravel/fortify** (v1): Autenticação headless
-- **laravel/prompts** (v0): CLI interativa
-- **pestphp/pest** (v4): Framework de testes com suporte a testes de navegador
-- **tailwindcss** (v4): Utilitários CSS
-- **php** (8.4): Linguagem de programação
-
-Para mais informações sobre cada ferramenta, consulte a documentação oficial ou use a busca de documentação do Boost.
